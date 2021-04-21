@@ -1,0 +1,65 @@
+body{
+	background-image: url('Source/bg.jpg');
+}
+.menuBttup{
+    margin: 20px;
+    display: inline-block;
+    background: #353535;
+    width: 988px;
+    height: 50px;
+    border-radius: 10px;
+}
+a.button {
+  display: inline-block;
+  background-image: url('Source/button.png');
+  background-size: 200px;
+  border-radius: 10px 5px;
+  color: #ff0000;
+  padding: 12px;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  margin: 4px;
+  color:#E2A126!important;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+p{
+	font-family: Comic Sans MS;
+	color:#E2A126!important;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+.centerBurleft{
+    margin: 20px;
+    display: inline-block;
+    background: #353535;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.centerBurА{
+    margin-left: 500px;
+    display: inline-block;
+    background: #353535;
+    align-content: space-around;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+img{
+	padding: 0 auto;
+	margin: 0 auto;
+
+}
+.teh{
+  width: 1444px;
+  height: 700px;
+  margin: 0 auto;
+}

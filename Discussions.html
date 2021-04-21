@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PGD discussions</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		#disqus_thread{
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 15%;
+			background-color: #f0f0f0f0;
+		}
+		body{
+			background-image: url('Source/bg.jpg');
+		}
+	</style>
+</head>
+<body>
+<div class="upBur">
+			<p class="menuBttup">
+				<a class="button" href="uslugi.html"><b>УСЛУГИ</b></a>
+				<a class="button" href="teh.html"><b>ТЕХ ПОДЕРЖКА</b></a>
+				<a class="button" href="top.html"><b>ТОПЫ МИРА</b></a>
+				<a class="button" href="Discussions.html"><b>ЧАТ ДОТЕРОВ</b></a>
+				<a class="button" href="albom.html"><b>АЛЬБОМ ДОТЕРОВ</b></a>
+				<a class="button" href="index.html"><b>ЧЕКНИ МАТЬ</b></a>
+			</p>
+		</div>
+	<div id="disqus_thread"></div>
+	<script>
+	    var disqus_config = function () {
+	    this.page.url = 'https://ufedosu.github.io/PGDnews/Discussions.html';
+	    this.page.identifier = 'disqus.html';
+	    };
+	    
+	    (function() {
+	    var d = document, s = d.createElement('script');
+	    s.src = 'https://dungerdota.disqus.com/embed.js';
+	    s.setAttribute('data-timestamp', +new Date());
+	    (d.head || d.body).appendChild(s);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
